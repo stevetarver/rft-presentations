@@ -1,4 +1,3 @@
-layout : top-left
 ---?image=svgo/pitch/images/gopherswim.jpg&size=contain&color=white&position=right
 @title[Intro]
 
