@@ -105,6 +105,7 @@ Install https://github.com/ajstarks/svgo
 * GitHub activity
 * Custom screen display
 
+install svgo: `go get github.com/ajstarks/svgo`
 ---
 
 # References
@@ -112,7 +113,9 @@ Install https://github.com/ajstarks/svgo
 ## AJ Starks
 
 * [svgo Github page: https://github.com/ajstarks/svgo](https://github.com/ajstarks/svgo)
+* [svgo info displays: https://github.com/ajstarks/go-info-displays](https://github.com/ajstarks/go-info-displays)
 * [Deck Github page: https://github.com/ajstarks/deck](https://github.com/ajstarks/deck)
+
 
 
 ---
