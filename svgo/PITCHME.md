@@ -1,4 +1,4 @@
----?image=svgo/pitch/images/gopherhat.jpg&size=contain
+---?image=svgo/pitch/images/gopherhat.jpg&size=contain&color=white
 
 # Intro
 
