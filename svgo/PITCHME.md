@@ -16,7 +16,7 @@ Follow along with this pitch at:
 
 ---
 
-**_Why Go?_**
+### Why Go?
 
 - **Minutes to learn**, sophisticated enough to conquer the world
 - **Business**: small, fast, deploy anywhere, rapid product development
@@ -24,11 +24,11 @@ Follow along with this pitch at:
 - **Jobs**? If you can spell "Go", you can get a job on the front range
 
 @snap[south-west]
-@fa[bitbucket fa-2x]
+@fa[git fa-2x]
 @snapend
 
 @snap[south]
-<img src="svgo/pitch/images/Go-Logo/PNG/Go-Logo_Aqua.png" height="100" width="100">
+<img style="border:0px" src="svgo/pitch/images/Go-Logo/PNG/Go-Logo_Aqua.png" height="100" width="100">
 @snapend
 
 @snap[south-east]
