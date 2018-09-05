@@ -1,4 +1,5 @@
 ---?image=svgo/pitch/images/gopherswim.jpg&size=contain&color=white&position=right
+
 @title[Intro]
 
 <br/>
@@ -16,16 +17,12 @@ Follow along with this pitch at:
 
 ---
 
-# Why go
-## Why go
-### Why go
-#### Why go
-##### Why go
+Why Go?
 
-- Like the board game, Go takes minutes to learn, but you can keep improving skills for a long time.
-- Resume builder
+- Minutes to learn, sophisticated enough to conquer the world
 - Small and fast for business use
 - Fun - immediate feedback
+- Jobs?
 
 @fa[thumbs-up] Resume builder
 
