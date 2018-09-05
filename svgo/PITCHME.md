@@ -29,7 +29,7 @@ Follow along with this pitch at:
 @snapend
 
 @snap[south]
-![golang](pitch/svgo/pitch/images/Go-Logo/png/Go-Logo_Aqua.png)
+![golang](pitch/svgo/pitch/images/Go-Logo/PNG/Go-Logo_Aqua.png)
 @snapend
 
 @snap[south-west]
