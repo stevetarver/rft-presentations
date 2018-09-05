@@ -1,7 +1,8 @@
 ---?image=svgo/pitch/images/gopherhat.jpg&size=contain&color=white&position=right
+@title[Intro]
 
-Baby gophers:
-care and feeding
+#### Baby gophers:
+#### care and feeding
 
 
 
