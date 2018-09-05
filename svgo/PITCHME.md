@@ -17,15 +17,17 @@ Follow along with this pitch at:
 ---
 
 # Why go
-
-TODO: markdown fragments not working
+## Why go
+### Why go
+#### Why go
+##### Why go
 
 - Like the board game, Go takes minutes to learn, but you can keep improving skills for a long time.
 - Resume builder
 - Small and fast for business use
 - Fun - immediate feedback
 
-@fa[thumbs-up]
+@fa[thumbs-up] Resume builder
 
 ---
 
