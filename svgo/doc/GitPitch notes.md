@@ -42,6 +42,20 @@ To shorten the write-push-view loop:
 
 https://gitpitch.com/docs/markdown-features/shortcuts/
 
+### Background images
+
+The slide delimiter (`---`, `+++`) marks the beginning of a slide. Add an image to that and it becomes the background image.
+
+```
+---?image=svgo/pitch/images/gopherhat.jpg
+```
+Not the similarity to a url query string.
+
+The path is relative to the repo root - don't forget the sub-directory if you are using a single repository for multiple presentations.
+
+* SVG images require purchasing the 'pro' package.
+
+
 ### Add an image to a slide
 
 ### Formatting
