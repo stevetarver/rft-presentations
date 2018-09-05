@@ -28,7 +28,7 @@ Follow along with this pitch at:
 @snapend
 
 @snap[south]
-<img style="border:0px" src="svgo/pitch/images/Go-Logo/PNG/Go-Logo_Aqua.png" height="100" width="100">
+<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);"  height="100" width="100" src="svgo/pitch/images/Go-Logo/PNG/Go-Logo_Aqua.png">
 @snapend
 
 @snap[south-east]
