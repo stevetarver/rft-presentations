@@ -1,12 +1,46 @@
+# Intro
+
+TODO: not working - see this for more images
+
+---?https://golang.org/doc/gopher/pencil/gopherswim.jpg
+---?image=assets/img/gp-logo-tagline.svg
+
+---?image=pitch/images/gopherhat.jpg
+---?image=pitch/images/gopherhelmet.jpg
+---?image=pitch/images/gophermega.jpg
+---?image=pitch/images/gopherrunning.jpg
+---?image=pitch/images/gopherswim.jpg
+---?image=pitch/images/gopherswrench.jpg
+
+inline image example
+
+![SAMBA Deployment](https://onetapbeyond.github.io/resource/img/samba/new-samba-deploy.jpg)
+
+top slide
+
++++
+
+Follow along with [this pitch](https://gitpitch.com/stevetarver/rft-presentations/master?p=svgo).
 
 
+---
 
 # Why go
 
-* Like the board game, Go takes minutes to learn, but you can keep improving skills for a long time.
-* Resume builder
-* Small and fast for business use
-* Fun - immediate feedback
+TODO: markdown fragments not working
+
+@ul
+
+- Plain text list item
+- Rich **markdown** list *item*
+- Link [within](https://gitpitch.com) list item
+
+@ulend
+
+- Like the board game, Go takes minutes to learn, but you can keep improving skills for a long time.
+- Resume builder
+- Small and fast for business use
+- Fun - immediate feedback
 
 ---
 
@@ -40,6 +74,8 @@ module github.com/stevetarver/rft-presentations/svgo
 ---
 
 # Hello world!
+
+TODO: fetch this from the repo
 
 Create file `hello.go`:
 
