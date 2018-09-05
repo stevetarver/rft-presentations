@@ -17,14 +17,12 @@ Follow along with this pitch at:
 
 ---
 
-Why Go?
+**_Why Go?_**
 
-- Minutes to learn, sophisticated enough to conquer the world
-- Small and fast for business use
-- Fun - immediate feedback
-- Jobs?
-
-@fa[thumbs-up] Resume builder
+@fa[thumbs-up] Minutes to learn, sophisticated enough to conquer the world
+@fa[thumbs-up] Business: small, fast, rapid product development
+@fa[thumbs-up] Developer joy: easy, fun, make stuff quickly
+@fa[thumbs-up] Jobs? If you can spell "Go", you can get a job on the front range
 
 ---
 
