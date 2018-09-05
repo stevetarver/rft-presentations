@@ -31,7 +31,7 @@ Svg tools
 
 
 @snap[north-east]
-<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);"  src="svgo/pitch/images/pale-violet-square.png">
+<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="60px" src="svgo/pitch/images/pale-violet-square.png">
 @snapend
 
 SVGs are just XML
