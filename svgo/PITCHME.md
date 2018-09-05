@@ -1,6 +1,7 @@
+---?image=svgo/pitch/images/gopherhat.jpg
+
 # Intro
 
----?image=svgo/pitch/images/gopherhat.jpg
 
 
 ---?https://golang.org/doc/gopher/pencil/gopherswim.jpg
