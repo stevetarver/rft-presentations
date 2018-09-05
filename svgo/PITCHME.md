@@ -1,4 +1,4 @@
----?image=svgo/pitch/images/gopherhat.jpg&size=contain&color=white&position=right
+---?image=svgo/pitch/images/gopherswim.jpg&size=contain&color=white&position=right
 @title[Intro]
 
 @snap[north-west]
@@ -132,6 +132,7 @@ Install https://github.com/ajstarks/svgo
 
 # TODO
 
+---?image=pitch/images/gopherhat.jpg
 ---?image=pitch/images/gopherhelmet.jpg
 ---?image=pitch/images/gophermega.jpg
 ---?image=pitch/images/gopherrunning.jpg
