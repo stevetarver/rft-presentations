@@ -65,10 +65,14 @@ SVGs are just XML
 
 ### Why Go?
 
+@ul
+
 - **Minutes to learn**, sophisticated enough to conquer the world
 - **Business**: small, fast, deploy anywhere, rapid product development
 - **Developer joy**: easy, fun, make stuff quickly
 - **Jobs**? If you can spell "Go", you can get a job on the front range
+
+@ulend
 
 @snap[south-west]
 @fa[git fa-2x]
