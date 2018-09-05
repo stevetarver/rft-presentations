@@ -1,8 +1,9 @@
 ---?image=svgo/pitch/images/gopherhat.jpg&size=contain&color=white&position=right
 @title[Intro]
 
-@snap[west]
+@snap[northwest]
 **Baby gophers:**
+
 **care and feeding**
 @snapend
 
