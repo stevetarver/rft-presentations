@@ -1,12 +1,10 @@
 # Intro
 
----?image=assets/img/gp-logo-tagline.svg
+---?image=svgo/pitch/images/gopherhat.jpg
 
-TODO: not working - see this for more images
 
 ---?https://golang.org/doc/gopher/pencil/gopherswim.jpg
 
----?image=svgo/pitch/images/gopherhat.jpg
 
 inline image example
 
