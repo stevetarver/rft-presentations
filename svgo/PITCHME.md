@@ -1,9 +1,10 @@
 # Intro
 
+---?image=assets/img/gp-logo-tagline.svg
+
 TODO: not working - see this for more images
 
 ---?https://golang.org/doc/gopher/pencil/gopherswim.jpg
----?image=assets/img/gp-logo-tagline.svg
 
 ---?image=svgo/pitch/images/gopherhat.jpg
 
@@ -127,3 +128,9 @@ Install https://github.com/ajstarks/svgo
 ---
 
 # TODO
+
+---?image=pitch/images/gopherhelmet.jpg
+---?image=pitch/images/gophermega.jpg
+---?image=pitch/images/gopherrunning.jpg
+---?image=pitch/images/gopherswim.jpg
+---?image=pitch/images/gopherswrench.jpg
