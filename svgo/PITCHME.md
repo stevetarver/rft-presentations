@@ -37,11 +37,12 @@ Follow along with this pitch at:
 
 ---
 
-# Go install & setup
+### Go install & setup
 
 1. Go to the install page: [https://golang.org/doc/install](https://golang.org/doc/install)
 1. Click the "Download Go" button.
 1. Run the installer.
+1. Check the version on the command line.
 
 ```
 ᐅ go version
@@ -50,8 +51,8 @@ go version go1.11 darwin/amd64
 
 ### Troubleshooting
 
-* Did you restart your shell so paths changes can take effect?
-* Did the installer setup the paths properly?
+* Restart the shell to pickup paths changes.
+* Check paths setup properly.
 
 ---
 
