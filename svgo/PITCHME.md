@@ -3,7 +3,7 @@
 
 @snap[north-west]
 **_Baby gophers:_**
-
+<br/>
 **_care and feeding_**
 @snapend
 
