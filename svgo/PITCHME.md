@@ -8,7 +8,6 @@
 <br/>
 **_care and feeding_**
 
-
 +++
 
 Follow along with this pitch at: 
@@ -17,23 +16,23 @@ Follow along with this pitch at:
 
 ---
 
-**_Why Go?_**
+### Why Go?
 
-- Minutes to learn, sophisticated enough to conquer the world
-- Business: small, fast, deploy anywhere, rapid product development
-- Developer joy: easy, fun, make stuff quickly
-- Jobs? If you can spell "Go", you can get a job on the front range
+- **Minutes to learn**, sophisticated enough to conquer the world
+- **Business**: small, fast, deploy anywhere, rapid product development
+- **Developer joy**: easy, fun, make stuff quickly
+- **Jobs**? If you can spell "Go", you can get a job on the front range
 
-@snap[south-east]
-@fa[github fa-3x]
+@snap[south-west]
+@fa[git fa-2x]
 @snapend
 
 @snap[south]
-![golang](pitch/svgo/pitch/images/Go-Logo/png/Go-Logo_Aqua.png)
+<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);"  height="60" width="100" src="svgo/pitch/images/Go-Logo/PNG/Go-Logo_Aqua_sm.png">
 @snapend
 
-@snap[south-west]
-@fa[bitbucket fa-3x]
+@snap[south-east]
+@fa[github fa-2x]
 @snapend
 
 ---
