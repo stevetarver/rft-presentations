@@ -8,19 +8,11 @@
 **_care and feeding_**
 
 
----?https://golang.org/doc/gopher/pencil/gopherswim.jpg
-
-
-inline image example
-
-![SAMBA Deployment](https://onetapbeyond.github.io/resource/img/samba/new-samba-deploy.jpg)
-
-top slide
-
 +++
 
-Follow along with [this pitch](https://gitpitch.com/stevetarver/rft-presentations/master?p=svgo).
+Follow along with this pitch at: 
 
+> https://gitpitch.com/stevetarver/rft-presentations/master?p=svgo
 
 ---
 
@@ -28,18 +20,12 @@ Follow along with [this pitch](https://gitpitch.com/stevetarver/rft-presentation
 
 TODO: markdown fragments not working
 
-@ul
-
-- Plain text list item
-- Rich **markdown** list *item*
-- Link [within](https://gitpitch.com) list item
-
-@ulend
-
 - Like the board game, Go takes minutes to learn, but you can keep improving skills for a long time.
 - Resume builder
 - Small and fast for business use
 - Fun - immediate feedback
+
+@fa[thumbs-up]
 
 ---
 
