@@ -37,7 +37,7 @@ Follow along with this pitch at:
 
 ---
 
-### Go install & setup
+### Install Go
 
 1. Go to the install page: [https://golang.org/doc/install](https://golang.org/doc/install)
 1. Click the "Download Go" button.
@@ -56,20 +56,19 @@ go version go1.11 darwin/amd64
 
 ---
 
-# Go project initialization
+### Create a new project
 
 ```
 ᐅ go mod init github.com/stevetarver/rft-presentations/svgo
 go: creating new go.mod: module github.com/stevetarver/rft-presentations/svgo
+
 ᐅ cat go.mod
 module github.com/stevetarver/rft-presentations/svgo
 ```
 
 ---
 
-# Hello world!
-
-TODO: fetch this from the repo
+### Create your first app
 
 Create file `hello.go`:
 
@@ -77,27 +76,20 @@ Create file `hello.go`:
 package main
 
 func main() {
-	println("Hello baby gophers!")
+    println("Hello baby gophers!")
 }
 ```
 
-Run it
+Run it:
 
 ```go
 ᐅ go run hello.go
 Hello baby gophers!
 ```
 
-This is used for testing changes frequently - and maybe all that you need.
-
-
-## basic commands
-
-go install hello.go
-
 ---
 
-## svgo overview
+### svgo overview
 
 What are SVGs
 Why are they cool
