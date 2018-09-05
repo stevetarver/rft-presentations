@@ -1,9 +1,10 @@
 ---?image=svgo/pitch/images/gopherhat.jpg&size=contain&color=white&position=right
 @title[Intro]
 
-#### Baby gophers:
-#### care and feeding
-
+@snap[west]
+**Baby gophers:**
+**care and feeding**
+@snapend
 
 
 ---?https://golang.org/doc/gopher/pencil/gopherswim.jpg
