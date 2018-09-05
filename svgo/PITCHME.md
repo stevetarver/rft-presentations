@@ -1,10 +1,10 @@
 ---?image=svgo/pitch/images/gopherhat.jpg&size=contain&color=white&position=right
 @title[Intro]
 
-@snap[northwest]
-**Baby gophers:**
+@snap[north-west]
+**_Baby gophers:_**
 
-**care and feeding**
+**_care and feeding_**
 @snapend
 
 
