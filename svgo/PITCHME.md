@@ -1,11 +1,13 @@
 ---?image=svgo/pitch/images/gopherswim.jpg&size=contain&color=white&position=right
 @title[Intro]
 
-@snap[north-west]
+<br/>
+<br/>
+<br/>
+
 **_Baby gophers:_**
 <br/>
 **_care and feeding_**
-@snapend
 
 
 ---?https://golang.org/doc/gopher/pencil/gopherswim.jpg
