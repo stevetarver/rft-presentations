@@ -2,8 +2,6 @@
 @title[Intro]
 
 <br/>
-<br/>
-<br/>
 
 **_Baby gophers:_**
 <br/>
