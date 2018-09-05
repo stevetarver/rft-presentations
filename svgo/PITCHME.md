@@ -5,12 +5,7 @@ TODO: not working - see this for more images
 ---?https://golang.org/doc/gopher/pencil/gopherswim.jpg
 ---?image=assets/img/gp-logo-tagline.svg
 
----?image=pitch/images/gopherhat.jpg
----?image=pitch/images/gopherhelmet.jpg
----?image=pitch/images/gophermega.jpg
----?image=pitch/images/gopherrunning.jpg
----?image=pitch/images/gopherswim.jpg
----?image=pitch/images/gopherswrench.jpg
+---?image=svgo/pitch/images/gopherhat.jpg
 
 inline image example
 
