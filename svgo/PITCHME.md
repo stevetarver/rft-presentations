@@ -23,16 +23,16 @@ Follow along with this pitch at:
 - **Developer joy**: easy, fun, make stuff quickly
 - **Jobs**? If you can spell "Go", you can get a job on the front range
 
-@snap[south-east]
-@fa[github fa-3x]
+@snap[south-west]
+@fa[bitbucket fa-2x]
 @snapend
 
 @snap[south]
-![golang](svgo/pitch/images/Go-Logo/PNG/Go-Logo_Aqua.png)
+<img src="svgo/pitch/images/Go-Logo/PNG/Go-Logo_Aqua.png" height="100" width="100">
 @snapend
 
-@snap[south-west]
-@fa[bitbucket fa-3x]
+@snap[south-east]
+@fa[github fa-2x]
 @snapend
 
 ---
