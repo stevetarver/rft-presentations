@@ -1,4 +1,4 @@
----?image=svgo/pitch/images/gopherswim.jpg&size=contain&color=white&position=right
+---?image=svgo/pitch/images/go-pencil/gopherswim.jpg&size=contain&color=white&position=right
 
 @title[Intro]
 
@@ -13,6 +13,49 @@
 Follow along with this pitch at: 
 
 > https://gitpitch.com/stevetarver/rft-presentations/master?p=svgo
+
+---
+
+### What are SVGs
+
+> Scalable Vector Graphics (SVG) is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation. The SVG specification is an open standard developed by the World Wide Web Consortium (W3C) since 1999. SVG images and their behaviors are defined in XML text files.
+
+Why use them
+
+Scaled Vector Graphics
+Scale to any size and look great
+
+Svg tools
+
+---
+
+
+@snap[north-east]
+<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);"  src="svgo/pitch/images/pale-violet-square.png">
+@snapend
+
+SVGs are just XML
+
+```xml
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="61 61 142 142" width="142pt" height="142pt"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <metadata>Produced by OmniGraffle 6.6.2
+        <dc:date>2018-09-05 19:20:43 +0000</dc:date>
+    </metadata>
+    <defs/>
+    <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+        <title>Canvas 1</title>
+        <g>
+            <title>Layer 1</title>
+            <rect x="72" y="72" width="120" height="120" fill="#9662d0"/>
+            <rect x="72" y="72" width="120" height="120" stroke="black" stroke-linecap="round" stroke-linejoin="round"
+                  stroke-width="1"/>
+        </g>
+    </g>
+</svg>
+```
 
 ---
 
@@ -96,9 +139,27 @@ Why are they cool
 Where can they be used
 Show examples
 
+What does an SVG file look like?
+
 ---
 
-## Project 1
+## Hello SVG
+
+```go
+ ᐅ go get github.com/ajstarks/svgo
+go: finding github.com/ajstarks/svgo latest
+go: downloading github.com/ajstarks/svgo v0.0.0-20180830174826-7338bd80e790
+ᐅ cat go.mod
+module github.com/stevetarver/rft-presentations/svgo
+
+require github.com/ajstarks/svgo v0.0.0-20180830174826-7338bd80e790 // indirect
+```
+
+show code, run, view
+
+---
+
+Project ideas
 
 Install https://github.com/ajstarks/svgo
 
@@ -106,6 +167,28 @@ Install https://github.com/ajstarks/svgo
 * Custom screen display
 
 install svgo: `go get github.com/ajstarks/svgo`
+
+
+---
+
+### Using live data
+
+How to fetch
+
+curl, wget, httpie
+
+```
+brew install httpie 
+```
+
+---
+
+### Reverse engineering an SVG
+
+Mock up on favorite tool, convert to code
+
+Identify live data sections
+
 ---
 
 # References
@@ -116,15 +199,16 @@ install svgo: `go get github.com/ajstarks/svgo`
 * [svgo info displays: https://github.com/ajstarks/go-info-displays](https://github.com/ajstarks/go-info-displays)
 * [Deck Github page: https://github.com/ajstarks/deck](https://github.com/ajstarks/deck)
 
+Tons of examples in go-info-displays
 
 
 ---
 
 # TODO
 
----?image=pitch/images/gopherhat.jpg
----?image=pitch/images/gopherhelmet.jpg
----?image=pitch/images/gophermega.jpg
----?image=pitch/images/gopherrunning.jpg
----?image=pitch/images/gopherswim.jpg
----?image=pitch/images/gopherswrench.jpg
+---?image=pitch/images/go-pencil/gopherhat.jpg
+---?image=pitch/images/go-pencil/gopherhelmet.jpg
+---?image=pitch/images/go-pencil/gophermega.jpg
+---?image=pitch/images/go-pencil/gopherrunning.jpg
+---?image=pitch/images/go-pencil/gopherswim.jpg
+---?image=pitch/images/go-pencil/gopherswrench.jpg
