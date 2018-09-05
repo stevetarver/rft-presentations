@@ -1,4 +1,4 @@
----?image=svgo/pitch/images/gopherhat.jpg
+---?image=svgo/pitch/images/gopherhat.jpg&size=cover
 
 # Intro
 
