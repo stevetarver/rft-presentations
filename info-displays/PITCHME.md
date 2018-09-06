@@ -207,8 +207,6 @@ _There are many tools to automate... Why go?_
 go version go1.11 darwin/amd64
 ```
 
-<br>/
-
 ##### Troubleshooting
 
 * Restart the shell to pickup paths changes.
