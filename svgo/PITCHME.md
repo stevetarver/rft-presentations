@@ -23,7 +23,7 @@ Follow along with this pitch at:
 
 [https://gitpitch.com/stevetarver/rft-presentations/master?p=svgo](https://gitpitch.com/stevetarver/rft-presentations/master?p=svgo)
 
-_we're going to code
+_we're going to code, you can too!_
 
 ---
 
@@ -107,8 +107,6 @@ Plain text _italics_ **BOLD** **_BOLD italics_**
 ### ***When _can_ you use them?***
 
 Classically:
-
-@ul
 
 - Web page icons: [Font Awesome](https://fontawesome.com/?utm_source=v4_homepage&utm_medium=display&utm_campaign=fa5_released&utm_content=banner)
 - Custon icon sets: [CTL Monocle](https://www.ctl.io/developers/blog/post/monocle-pattern-library)
