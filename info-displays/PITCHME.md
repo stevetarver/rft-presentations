@@ -14,7 +14,7 @@
 
 * Introduce Go
 * Code SVGs
-* Automating SVG creation
+* Automate SVG creation
 
 
 +++
@@ -23,6 +23,7 @@ Follow along with this pitch at:
 
 [https://gitpitch.com/stevetarver/rft-presentations/master?p=info-displays](https://gitpitch.com/stevetarver/rft-presentations/master?p=info-displays)
 
+<br/>
 _we're going to code, you can too!_
 
 ---
@@ -131,7 +132,7 @@ Imagine camera snapshots from the four mountains:
 
 And then putting that on a large format TV:
 
-<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="450px" src="info-displays/pitch/images/starks_examples/twh-20180417.png">
+<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="450px" src="info-displays/pitch/images/starks_examples/IMG_4411.png">
 
 ---
 
