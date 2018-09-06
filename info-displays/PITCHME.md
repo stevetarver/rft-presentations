@@ -165,10 +165,10 @@ _There are many tools to automate... Why go?_
 
 @ul
 
-- Different
-    - Is it better than my current tool?
-    - Can I learn tricks from knowing how it works?
-    - Does it confirm that my current toolset is the right choice?
+- .small[Different]
+    - .tiny[Is it better than my current tool?]
+    - .tiny[Can I learn tricks from knowing how it works?]
+    - .tiny[Does it confirm that my current toolset is the right choice?]
 - Runs anywhere
     - Other tools may be OS specific, be costly, have license restrictions.
 - Has SVG tooling
