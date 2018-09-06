@@ -53,13 +53,13 @@ You can create charts:
 
 Gallery's: imagine having camera snapshots from the four mountains:
 
-<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="400px" src="svgo/pitch/images/starks_examples/jtree_thumbs.png">
+<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="500px" src="svgo/pitch/images/starks_examples/jtree_thumbs.png">
 
 +++
 
 And then putting that on a large format TV:
 
-<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="400px" src="svgo/pitch/images/starks_examples/twh-20180417.png">
+<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="500px" src="svgo/pitch/images/starks_examples/twh-20180417.png">
 
 ---
 
