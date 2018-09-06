@@ -4,9 +4,9 @@
 
 <br/>
 
-**_Automating Digital Asset Workflows..._**
+**_Automating Digital Asset_**
 <br/>
-**_with Go_**
+**_ Workflows... with Go_**
 
 +++
 
