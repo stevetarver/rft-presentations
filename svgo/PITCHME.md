@@ -10,6 +10,8 @@
 
 +++
 
+### What we'll do
+
 * Introduce Go
 * Code SVGs
 * Think through opportunities for automating your workflow
@@ -28,6 +30,7 @@ Follow along with this pitch at:
 ### Three hashses ###
 #### Four hashses ####
 ##### Five hashses #####
+###### Six hashes ######
 
 +++
 
@@ -44,7 +47,7 @@ Plain text _italics_ **BOLD** **_BOLD italics_**
 
 1. number 1
 1. number 2
-1. 
+
 @olend
 
 > quote
