@@ -10,7 +10,7 @@
 
 +++
 
-### What we'll do
+### ***What we'll do***
 
 * Introduce Go
 * Code SVGs
@@ -60,14 +60,17 @@ Plain text _italics_ **BOLD** **_BOLD italics_**
 > Scalable Vector Graphics (SVG) is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation.
 > _-- the almighty wikipedia__
 
++++
 
-#### Why use them?
+### Why use them?
 
 * Display perfectly at any scale
 * All elements scale together
 * Export to `png` at target resolutions for devices that can't render `svg`
 
 ---
+
+### When _can_ you use them?
 
 You might know these from [Font Awesome](https://fontawesome.com/?utm_source=v4_homepage&utm_medium=display&utm_campaign=fa5_released&utm_content=banner) or have created your own icon sets like [CTL Monocle](https://www.ctl.io/developers/blog/post/monocle-pattern-library)
 
