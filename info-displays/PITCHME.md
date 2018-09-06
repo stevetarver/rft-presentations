@@ -146,43 +146,39 @@ And then putting that on a large format TV:
 
 ---
 
-### ***How does this change if you want to show live data?***
+### ***How to handle "data"?***
 
-* Design
-* Fetch data
-* Draw
-* Export
-* Publish
-* Fetch data... at some period and republish
+If you want to show "live" data
 
-<br/>
-If done manually, time sink.
-<br/>
-If automated, updates are effortless.
+1. Design
+2. Fetch data
+3. Draw
+4. Export
+5. Publish
+6. Go back to #2...
 
 ---
 
-### Why Go?
+### ***Why Go?***
 
 _There are many tools to automate... Why go?_
 
 @ul
 
-- another tool
-- run anywhere
-- has tooling
-- fun
-- **Minutes to learn**, sophisticated enough to conquer the world
-- **Business**: small, fast, deploy anywhere, rapid product development
-- **Developer joy**: easy, fun, make stuff quickly
-- **Tooling exists**: svgo is just a simple way to create these xml lines
+- Different
+    - Is it better than my current tool?
+    - Can I learn tricks from knowing how it works?
+    - Does it confirm that my current toolset is the right choice?
+- Runs anywhere
+    - Other tools may be OS specific, be costly, have license restrictions.
+- Has SVG tooling
+    - Nothing we have to write - just use the library.
+- Version control
+    - Storing a drawing as code let's you keep and tweek many versions.
+- Fun
+    - It's so easy and fast to code - it's just fun to make things at that speed.
 
 @ulend
-
-Many automation tools, we're going to look at a new one, because it's different, and really easy
-
-Recording your drawing in code lets you version control it, revert to any previous stage, have many in-progress pieces.
-
 
 
 @snap[south-west]
@@ -415,6 +411,11 @@ ___
 
 Tons of examples in go-info-displays
 
+---
+
+### ***Questions?***
+
+- What tools are you using? Contrast...
 
 ---
 
