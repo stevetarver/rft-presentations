@@ -55,14 +55,13 @@ Plain text _italics_ **BOLD** **_BOLD italics_**
 ---
 
 
-### What are SVGs
+### ***What are SVGs***
 
 > Scalable Vector Graphics (SVG) is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation.
-> _-- the almighty wikipedia__
 
 +++
 
-### Why use them?
+### ***Why use them?***
 
 * Display perfectly at any scale
 * All elements scale together
@@ -70,13 +69,16 @@ Plain text _italics_ **BOLD** **_BOLD italics_**
 
 ---
 
-### When _can_ you use them?
+### ***When _can_ you use them?***
 
-You might know these from [Font Awesome](https://fontawesome.com/?utm_source=v4_homepage&utm_medium=display&utm_campaign=fa5_released&utm_content=banner) or have created your own icon sets like [CTL Monocle](https://www.ctl.io/developers/blog/post/monocle-pattern-library)
+Classically:
 
-SVGs are great for simple drawings, but you can do more.
+@ul
 
-Escape the browser and display on large format TV
+- Web page icons: [Font Awesome](https://fontawesome.com/?utm_source=v4_homepage&utm_medium=display&utm_campaign=fa5_released&utm_content=banner)
+- Custon icon sets: [CTL Monocle](https://www.ctl.io/developers/blog/post/monocle-pattern-library)
+
+SVGs are great for simple drawings, but you can do more...
 
 +++
 
