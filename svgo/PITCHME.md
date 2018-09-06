@@ -27,12 +27,25 @@ Follow along with this pitch at:
 ## Two hashses ##
 ### Three hashses ###
 #### Four hashses ####
+##### Five hashses #####
+
++++
 
 Plain text _italics_ **BOLD** **_BOLD italics_**
 
-- bullet
+@ul
 
-1. number
+- bullet 1
+- bullet 2
+
+@ulend
+
+@ol
+
+1. number 1
+1. number 2
+1. 
+@olend
 
 > quote
 
@@ -63,7 +76,7 @@ Escape the browser and display on large format TV
 
 You can create charts:
 
-<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="600px" src="svgo/pitch/images/starks_examples/stocks.png">
+<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="500px" src="svgo/pitch/images/starks_examples/stocks.png">
 
 +++
 
@@ -75,7 +88,7 @@ Imagine camera snapshots from the four mountains:
 
 And then putting that on a large format TV:
 
-<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="500px" src="svgo/pitch/images/starks_examples/twh-20180417.png">
+<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="450px" src="svgo/pitch/images/starks_examples/twh-20180417.png">
 
 ---
 
