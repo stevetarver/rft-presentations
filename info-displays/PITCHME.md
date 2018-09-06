@@ -1,4 +1,4 @@
----?image=svgo/pitch/images/go-pencil/gopherswim.jpg&size=contain&color=white&position=right
+---?image=info-displays/pitch/images/go-pencil/gopherswim.jpg&size=contain&color=white&position=right
 
 @title[Intro]
 
@@ -14,14 +14,14 @@
 
 * Introduce Go
 * Code SVGs
-* Think through opportunities for automating your workflow
+* Automating SVG creation
 
 
 +++
 
 Follow along with this pitch at: 
 
-[https://gitpitch.com/stevetarver/rft-presentations/master?p=svgo](https://gitpitch.com/stevetarver/rft-presentations/master?p=svgo)
+[https://gitpitch.com/stevetarver/rft-presentations/master?p=info-displays](https://gitpitch.com/stevetarver/rft-presentations/master?p=info-displays)
 
 _we're going to code, you can too!_
 
@@ -72,7 +72,7 @@ Plain text _italics_ **BOLD** **_BOLD italics_**
 +++
 
 @snap[north-east]
-<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="60px" src="svgo/pitch/images/pale-violet-square.png">
+<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="60px" src="info-displays/pitch/images/pale-violet-square.png">
 @snapend
 
 #### SVGs are just XML
@@ -109,7 +109,9 @@ Plain text _italics_ **BOLD** **_BOLD italics_**
 Classically:
 
 - Web page icons: [Font Awesome](https://fontawesome.com/?utm_source=v4_homepage&utm_medium=display&utm_campaign=fa5_released&utm_content=banner)
-- Custon icon sets: [CTL Monocle](https://www.ctl.io/developers/blog/post/monocle-pattern-library)
+- Custom icon sets: [CTL Monocle](https://www.ctl.io/developers/blog/post/monocle-pattern-library)
+
+<br/>
 
 SVGs are great for simple drawings, but you can do more...
 
@@ -117,27 +119,23 @@ SVGs are great for simple drawings, but you can do more...
 
 You can create charts:
 
-<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="500px" src="svgo/pitch/images/starks_examples/stocks.png">
+<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="500px" src="info-displays/pitch/images/starks_examples/stocks.png">
 
 +++
 
 Imagine camera snapshots from the four mountains:
 
-<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="450px" src="svgo/pitch/images/starks_examples/jtree_thumbs.png">
+<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="450px" src="info-displays/pitch/images/starks_examples/jtree_thumbs.png">
 
 +++
 
 And then putting that on a large format TV:
 
-<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="450px" src="svgo/pitch/images/starks_examples/twh-20180417.png">
+<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="450px" src="info-displays/pitch/images/starks_examples/twh-20180417.png">
 
 ---
 
-Svg tools
-
-Strategy: generate the svg and then pngs at a variety of resolutions
-
-Design Asset Workflow
+### ***Design Asset Workflow***
 
 * Design
 * Draw
@@ -147,7 +145,7 @@ Design Asset Workflow
 
 ---
 
-How does this change if you want to show live data?
+### ***How does this change if you want to show live data?***
 
 * Design
 * Fetch data
@@ -156,34 +154,42 @@ How does this change if you want to show live data?
 * Publish
 * Fetch data... at some period and republish
 
-If done manually, time sink
-If you automate, effortless - increase your bill rate
+<br/>
+If done manually, time sink.
+<br/>
+If automated, updates are effortless.
 
 ---
 
-
-Many automation tools, we're going to look at a new one, because it's different, and really easy
-
 ### Why Go?
+
+_There are many tools to automate... Why go?_
 
 @ul
 
+- another tool
+- run anywhere
+- has tooling
+- fun
 - **Minutes to learn**, sophisticated enough to conquer the world
 - **Business**: small, fast, deploy anywhere, rapid product development
 - **Developer joy**: easy, fun, make stuff quickly
 - **Tooling exists**: svgo is just a simple way to create these xml lines
 
+@ulend
+
+Many automation tools, we're going to look at a new one, because it's different, and really easy
 
 Recording your drawing in code lets you version control it, revert to any previous stage, have many in-progress pieces.
 
-@ulend
+
 
 @snap[south-west]
 @fa[git fa-2x]
 @snapend
 
 @snap[south]
-<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);"  height="50" src="svgo/pitch/images/Go-Logo/PNG/Go-Logo_Aqua_sm.png">
+<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);"  height="50" src="info-displays/pitch/images/Go-Logo/PNG/Go-Logo_Aqua_sm.png">
 @snapend
 
 @snap[south-east]
@@ -214,11 +220,11 @@ go version go1.11 darwin/amd64
 ### Create a new project
 
 ```
-ᐅ go mod init github.com/stevetarver/rft-presentations/svgo
-go: creating new go.mod: module github.com/stevetarver/rft-presentations/svgo
+ᐅ go mod init github.com/stevetarver/rft-presentations/info-displays
+go: creating new go.mod: module github.com/stevetarver/rft-presentations/info-displays
 
 ᐅ cat go.mod
-module github.com/stevetarver/rft-presentations/svgo
+module github.com/stevetarver/rft-presentations/info-displays
 ```
 
 ---
@@ -253,30 +259,71 @@ Show examples
 
 What does an SVG file look like?
 
+svgo is just a tool that simplifies creating the xml elements of an SVG
+
+Other implementations? node.js
+
 ---
 
-## Hello SVG
+### ***Hello SVG***
+
+Install the library:
 
 ```go
  ᐅ go get github.com/ajstarks/svgo
 go: finding github.com/ajstarks/svgo latest
 go: downloading github.com/ajstarks/svgo v0.0.0-20180830174826-7338bd80e790
+
 ᐅ cat go.mod
-module github.com/stevetarver/rft-presentations/svgo
+module github.com/stevetarver/rft-presentations/info-displays
 
 require github.com/ajstarks/svgo v0.0.0-20180830174826-7338bd80e790 // indirect
 ```
 
-show code, run, view
++++
+
+### ***The code***
+
+```go
+package main
+
+import (
+	"os"
+
+	"github.com/ajstarks/svgo"
+)
+
+func main() {
+	width := 600
+	height := 400
+	canvas := svg.New(os.Stdout)
+	canvas.Start(width, height)
+	canvas.Rect(0, 0, width, height, "fill:rgb(150,98,208)")
+	canvas.Text(width, height, "Hello gophers!",
+		"fill:white;font-size:60pt;font-family:serif;text-anchor:middle")
+	canvas.End()
+}
+```
+
++++
+
+### ***The image***
+
+<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);"  src="info-displays/pitch/images/Go-Logo/PNG/Go-Logo_Aqua_sm.png">
+
 
 ---
 
-Project ideas
+### Project ideas
 
 Install https://github.com/ajstarks/svgo
 
 * GitHub activity
 * Custom screen display
+    * images from four mountains, osprey
+    * weather
+    * GitHub issues? 
+    * inspirational quote
 
 install svgo: `go get github.com/ajstarks/svgo`
 
@@ -333,7 +380,7 @@ Something like the following would convert a .svg to .png, after installation:
 $ convert picture.svg picture.png
 The original .svg isn't deleted.
 
-osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/starver/code/rft/rft-presentations/svgo/pitch/images/pale-violet-square.png"'
+osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/starver/code/rft/rft-presentations/info-displays/pitch/images/pale-violet-square.png"'
 
 could do the same on iphone
 
@@ -372,9 +419,3 @@ Tons of examples in go-info-displays
 
 # TODO
 
----?image=pitch/images/go-pencil/gopherhat.jpg
----?image=pitch/images/go-pencil/gopherhelmet.jpg
----?image=pitch/images/go-pencil/gophermega.jpg
----?image=pitch/images/go-pencil/gopherrunning.jpg
----?image=pitch/images/go-pencil/gopherswim.jpg
----?image=pitch/images/go-pencil/gopherswrench.jpg
