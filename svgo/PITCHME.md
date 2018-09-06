@@ -21,7 +21,9 @@
 
 Follow along with this pitch at: 
 
-> https://gitpitch.com/stevetarver/rft-presentations/master?p=svgo
+[https://gitpitch.com/stevetarver/rft-presentations/master?p=svgo](https://gitpitch.com/stevetarver/rft-presentations/master?p=svgo)
+
+_we're going to code
 
 ---
 
