@@ -10,6 +10,13 @@
 
 +++
 
+* Introduce Go
+* Code SVGs
+* Think through opportunities for automating your workflow
+
+
++++
+
 Follow along with this pitch at: 
 
 > https://gitpitch.com/stevetarver/rft-presentations/master?p=svgo
@@ -46,13 +53,13 @@ You can create charts:
 
 Gallery's: imagine having camera snapshots from the four mountains:
 
-<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="600px" src="svgo/pitch/images/starks_examples/jtree_thumbs.png">
+<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="400px" src="svgo/pitch/images/starks_examples/jtree_thumbs.png">
 
 +++
 
 And then putting that on a large format TV:
 
-<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="600px" src="svgo/pitch/images/starks_examples/twh-20180417.png">
+<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="400px" src="svgo/pitch/images/starks_examples/twh-20180417.png">
 
 ---
 
