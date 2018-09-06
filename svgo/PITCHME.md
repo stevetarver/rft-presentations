@@ -4,9 +4,9 @@
 
 <br/>
 
-**_Baby gophers:_**
+**_Automating Digital Asset Workflows..._**
 <br/>
-**_care and feeding_**
+**_with Go_**
 
 +++
 
@@ -18,23 +18,77 @@ Follow along with this pitch at:
 
 ### What are SVGs
 
-> Scalable Vector Graphics (SVG) is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation. The SVG specification is an open standard developed by the World Wide Web Consortium (W3C) since 1999. SVG images and their behaviors are defined in XML text files.
+> Scalable Vector Graphics (SVG) is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation.
+> _-- the almighty wikipedia__
 
-Why use them
 
-Scaled Vector Graphics
-Scale to any size and look great
+#### Why use them?
 
-Svg tools
+* Display perfectly at any scale
+* All elements scale together
+* Export to `png` at target resolutions for devices that can't render `svg`
 
 ---
 
+You might know these from [Font Awesome](https://fontawesome.com/?utm_source=v4_homepage&utm_medium=display&utm_campaign=fa5_released&utm_content=banner) or have created your own icon sets like [CTL Monocle](https://www.ctl.io/developers/blog/post/monocle-pattern-library)
+
+SVGs are great for simple drawings, but you can do more.
+
+Escape the browser and display on large format TV
+
++++
+
+You can create charts:
+
+<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="600px" src="svgo/pitch/images/startks_examples/jtree_thumbs.png">
+
++++
+
+Gallery's: imagine having camera snapshots from the four mountains:
+
+<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="600px" src="svgo/pitch/images/startks_examples/jtree_thumbs.png">
+
++++
+
+And then putting that on a large format TV:
+
+<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="600px" src="svgo/pitch/images/startks_examples/IMG_4411.JPG">
+
+---
+
+Svg tools
+
+Strategy: generate the svg and then pngs at a variety of resolutions
+
+Design Asset Workflow
+
+* Design
+* Draw
+* Export
+* Publish
+* Done
+
+---
+
+How does this change if you want to show live data?
+
+* Design
+* Fetch data
+* Draw
+* Export
+* Publish
+* Fetch data... at some period and republish
+
+If done manually, time sink
+If you automate, effortless - increase your bill rate
+
+---
 
 @snap[north-east]
 <img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="60px" src="svgo/pitch/images/pale-violet-square.png">
 @snapend
 
-SVGs are just XML
+#### SVGs are just XML
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -60,8 +114,9 @@ SVGs are just XML
     </g>
 </svg>
 ```
-
 ---
+
+Many automation tools, we're going to look at a new one, because it's different, and really easy
 
 ### Why Go?
 
@@ -70,7 +125,10 @@ SVGs are just XML
 - **Minutes to learn**, sophisticated enough to conquer the world
 - **Business**: small, fast, deploy anywhere, rapid product development
 - **Developer joy**: easy, fun, make stuff quickly
-- **Jobs**? If you can spell "Go", you can get a job on the front range
+- **Tooling exists**: svgo is just a simple way to create these xml lines
+
+
+Recording your drawing in code lets you version control it, revert to any previous stage, have many in-progress pieces.
 
 @ulend
 
@@ -185,6 +243,8 @@ How to fetch
 
 curl, wget, httpie
 
+Focus on live data - this is where it shines
+
 ```
 brew install httpie 
 ```
@@ -198,6 +258,58 @@ Mock up on favorite tool, convert to code
 Identify live data sections
 
 ---
+
+### Use on website
+
+embed
+
+simple webpage that references external url
+
+____
+
+
+### Install as mac wallpaper
+
+qlmanage -t -s 1000 -o . picture.svg 
+It will produce picture.svg.png that is 1000 pixels wide.
+May only produce squares.
+
+rsvg-convert
+brew install librsvg and is used like this:
+
+rsvg-convert -h 32 icon.svg > icon-32.png
+
+
+ImageMagick is an extremely versatile command-line image editor, which would probably rival Photoshop if it had, you know, a GUI. But who needs those anyways. :P
+
+Something like the following would convert a .svg to .png, after installation:
+
+$ convert picture.svg picture.png
+The original .svg isn't deleted.
+
+osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/starver/code/rft/rft-presentations/svgo/pitch/images/pale-violet-square.png"'
+
+could do the same on iphone
+
+
+___
+
+### Install on appletv
+
+Strategies:
+
+Many large TVs have a store mode for just this type of thing - my LG for example. This retail mode may jack with home user mode.
+You can set up a local media server and many tvs can connect to it (webOS)
+Use an AppleTV
+* Use screen saver: Set to a photo or album and use as a screen saver
+* Use Photos: Create a photos album holding a slide show and view that on the TV.
+* Use Home Sharing: 
+* Get an app to show content from dropbox, google drive, etc.
+
+Create an app that loads slides from a remote hosted site.
+
+
+___
 
 # References
 
