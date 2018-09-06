@@ -212,7 +212,7 @@ go version go1.11 darwin/amd64
 * Restart the shell to pickup paths changes.
 * Check paths setup properly.
 
----
++++
 
 ### ***Create a new project***
 
@@ -224,7 +224,7 @@ go: creating new go.mod: module github.com/stevetarver/rft-presentations/info-di
 module github.com/stevetarver/rft-presentations/info-displays
 ```
 
----
++++
 
 ### ***Create your first app***
 
@@ -237,6 +237,8 @@ func main() {
     println("Hello baby gophers!")
 }
 ```
+
++++ 
 
 Run it:
 

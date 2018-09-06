@@ -6,7 +6,7 @@
 #PITCH_ZIP_NAME='PITCHME.zip'
 #
 #cd pitch
-#wget -O "${PITCH_ZIP_NAME}" https://gitpitch.com/pitchme/offline/github/stevetarver/rft-presentations/master/sky/PITCHME.zip?p=svgo
+#wget -O "${PITCH_ZIP_NAME}" https://gitpitch.com/pitchme/offline/github/stevetarver/rft-presentations/master/simple/PITCHME.zip?p=info-displays
 #unzip "${PITCH_ZIP_NAME}"
 
 cd pitch/PITCHME
