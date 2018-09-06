@@ -195,7 +195,7 @@ _There are many tools to automate... Why go?_
 
 ---
 
-### Install Go
+### ***Install Go***
 
 1. Go to the install page: [https://golang.org/doc/install](https://golang.org/doc/install)
 1. Click the "Download Go" button.
@@ -207,14 +207,16 @@ _There are many tools to automate... Why go?_
 go version go1.11 darwin/amd64
 ```
 
-### Troubleshooting
+<br>/
+
+##### Troubleshooting
 
 * Restart the shell to pickup paths changes.
 * Check paths setup properly.
 
 ---
 
-### Create a new project
+### ***Create a new project***
 
 ```
 ᐅ go mod init github.com/stevetarver/rft-presentations/info-displays
@@ -226,7 +228,7 @@ module github.com/stevetarver/rft-presentations/info-displays
 
 ---
 
-### Create your first app
+### ***Create your first app***
 
 Create file `hello.go`:
 
@@ -247,18 +249,17 @@ Hello baby gophers!
 
 ---
 
-### svgo overview
+### ***`svgo` overview***
 
-What are SVGs
-Why are they cool
-Where can they be used
-Show examples
+[AJ Starks' `svgo`](https://github.com/ajstarks/svgo) is a library that simplifies making XML entries in a SVG image.
 
-What does an SVG file look like?
+There are similar implementations in other languages:
 
-svgo is just a tool that simplifies creating the xml elements of an SVG
+- Node.js
+- **TODO** identify several and link
 
-Other implementations? node.js
+<br/>
+_Should one of them be in your toolbox?_
 
 ---
 
