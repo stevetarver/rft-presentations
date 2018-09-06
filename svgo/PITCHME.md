@@ -23,6 +23,22 @@ Follow along with this pitch at:
 
 ---
 
+# One hash #
+## Two hashses ##
+### Three hashses ###
+#### Four hashses ####
+
+Plain text _italics_ **BOLD** **_BOLD italics_**
+
+- bullet
+
+1. number
+
+> quote
+
+---
+
+
 ### What are SVGs
 
 > Scalable Vector Graphics (SVG) is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation.
@@ -51,7 +67,7 @@ You can create charts:
 
 +++
 
-Gallery's: imagine having camera snapshots from the four mountains:
+Imagine camera snapshots from the four mountains:
 
 <img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="450px" src="svgo/pitch/images/starks_examples/jtree_thumbs.png">
 
