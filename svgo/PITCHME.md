@@ -40,7 +40,7 @@ Escape the browser and display on large format TV
 
 You can create charts:
 
-<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="600px" src="svgo/pitch/images/starks_examples/jtree_thumbs.png">
+<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="600px" src="svgo/pitch/images/starks_examples/stocks.png">
 
 +++
 
