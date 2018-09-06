@@ -309,7 +309,7 @@ func main() {
 
 ### ***The image***
 
-<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);"  src="info-displays/pitch/images/Go-Logo/PNG/Go-Logo_Aqua_sm.png">
+<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);"  src="info-displays/hello_svg/hello_svg.png">
 
 
 ---
