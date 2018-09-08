@@ -13,6 +13,7 @@
 ### ***What we'll do***
 
 * Introduce Go
+* Introduce "a" tool to work with SVGs
 * Code SVGs
 * Automate SVG creation
 
@@ -431,6 +432,7 @@ Tons of examples in go-info-displays
 ### ***Questions?***
 
 - What tools are you using? Contrast...
+- What are you doing manually today, that you could automate?
 
 ---
 

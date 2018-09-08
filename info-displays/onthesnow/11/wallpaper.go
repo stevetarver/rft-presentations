@@ -18,7 +18,6 @@ import (
 // TODO: Finding the image link in the web page is taking a bit - can we stop at first match to speed this up
 // TODO: we could also split the web page fetch out into go routines... and fill in the image link data
 // TODO: create custom cropping and constrained resize to handle image variations
-// TODO: make into a proper photo gallery - hsize to fit desktop, but still ratio constrained
 // TODO: Can I add clickable links to the canvas
 
 type ImageData struct {
