@@ -20,9 +20,11 @@ fi
     # Run the go file to produce the wallpaper
     go run wallpaper.go > wallpaper.svg
 
-    # Convert the SVG to PNG - TODO: does this work with embedded links
-    #convert -background none wallpaper.svg wallpaper.png
+    # Convert the SVG to PNG - macs can't show svg as wallpaper
+    # The 'msg:' prefix downloads and includes the photos
+#    convert msvg:wallpaper.svg wallpaper.png
 
-    # Set the wallpaper as desktop background - TODO: test
-    #osascript -e ‘tell application “Finder” to set desktop picture to POSIX file “wallpaper.svg”’
+    # Set the wallpaper as desktop background
+#    FILE_PATH="$(pwd)/wallpaper.png"
+#    osascript -e 'tell application "Finder" to set desktop picture to POSIX file "'${FILE_PATH}'"'
 )
