@@ -253,6 +253,8 @@ Hello baby gophers!
 
 [AJ Starks' `svgo`](https://github.com/ajstarks/svgo) is a library that simplifies making XML entries in a SVG image.
 
+Starks presented "Go for Information Displays" at Gophercon 2018 - I wanted to see what I could do with it.
+
 There are similar implementations in other languages:
 
 - Node.js
@@ -280,7 +282,7 @@ require github.com/ajstarks/svgo v0.0.0-20180830174826-7338bd80e790 // indirect
 
 +++
 
-### ***The code***
+### ***Write the code***
 
 ```go
 package main
@@ -305,16 +307,30 @@ func main() {
 
 +++
 
+### ***Run the code***
+
+```
+#!/bin/sh -e
+#
+# Run hello.go
+#
+
+go run hello_svg.go > hello_svg.svg
+
+# Convert to png for easy display - gotta pay for this in GitPitch
+convert -background none hello_svg.svg hello_svg.png
+```
+
+
 ### ***The image***
 
 <img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);"  src="info-displays/hello_svg/hello_svg.png">
 
-
 ---
 
-### Project ideas
+### ***A laptop wallpaper***
 
-Install https://github.com/ajstarks/svgo
+We can make widgets that fill our laptop wallpaper
 
 * GitHub activity
 * Custom screen display
@@ -322,8 +338,6 @@ Install https://github.com/ajstarks/svgo
     * weather
     * GitHub issues? 
     * inspirational quote
-
-install svgo: `go get github.com/ajstarks/svgo`
 
 
 ---

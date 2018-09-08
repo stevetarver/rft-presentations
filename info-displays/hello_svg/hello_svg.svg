@@ -4,5 +4,5 @@
      xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink">
 <rect x="0" y="0" width="600" height="400" style="fill:rgb(150,98,208)" />
-<text x="300" y="200" style="fill:white;font-size:60pt;font-family:serif;text-anchor:middle" >Hello baby gophers!</text>
+<text x="300" y="200" style="fill:white;font-size:60pt;font-family:serif;text-anchor:middle" >Hello gophers!</text>
 </svg>
