@@ -25,7 +25,7 @@ func main() {
 	canvas.Start(canvasWidth, canvasHeight)
 	background(0, 150, 255)
 
-	canvas.Text(20, 40, "Forcast",
+	canvas.Text(20, 40, "Forecast",
 		"fill:white;font-size:36pt;font-family:Calibri;text-anchor:left")
 
 	canvas.Grid(0, 0, canvasWidth, canvasHeight, 10, "stroke:black;opacity:0.1")
