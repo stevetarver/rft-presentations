@@ -6,6 +6,7 @@ package main
 
 // Changes:
 // - clean up drawNews
+// - add canvas width / height command line args
 
 // Code Hygiene:
 // TODO: We could define a JSON struct holding only the information we need and unmarshal into that
@@ -15,6 +16,7 @@ package main
 
 import (
 	"encoding/json"
+	"flag"
 	"fmt"
 	"io/ioutil"
 	"net/http"
@@ -25,10 +27,8 @@ import (
 )
 
 const (
-	canvasWidth  = 2560
-	canvasHeight = 1440
-	xMargin      = 50
-	yMargin      = 100
+	xMargin = 50
+	yMargin = 100
 
 	// text styling
 	txtSizeLg      = 48
@@ -57,7 +57,9 @@ const (
 )
 
 var (
-	canvas = svg.New(os.Stdout)
+	canvasWidth  = 1600
+	canvasHeight = 900
+	canvas       = svg.New(os.Stdout)
 )
 
 // background is called after canvas.Start to... fill the background
@@ -175,7 +177,18 @@ func drawNews() {
 	}
 }
 
+// parseCmdLineArgs updates canvas width and or height if the user specified them.
+// Shows help if args specified but not in correct format
+// e.g. go run wallpaper.go -w 640 -h 400
+func parseCmdLineArgs() {
+	flag.IntVar(&canvasWidth, "w", canvasWidth, "Canvas width in pixels")
+	flag.IntVar(&canvasHeight, "h", canvasHeight, "Canvas height in pixels")
+	flag.Parse()
+}
+
 func main() {
+	parseCmdLineArgs()
+
 	canvas.Start(canvasWidth, canvasHeight)
 	defer canvas.End()
 
