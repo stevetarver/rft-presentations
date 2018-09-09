@@ -13,10 +13,13 @@
 ### ***What we'll do***
 
 * Introduce Go
-* Introduce "a" tool to work with SVGs
-* Code SVGs
-* Automate SVG creation
+* Introduce "a" tool to "draw" SVGs
+* Code up some SVGs
+* Generate some SVGs and PNGs
 
+_This is an experiment in using command line tools to automate away tedium._
+
+_There are many tools suitable to the task, looking at a new one highlights where your tools shines, or may reveal some tips you can use to simplify your life._
 
 +++
 
@@ -26,35 +29,6 @@ Follow along with this pitch at:
 
 <br/>
 _we're going to code, you can too!_
-
----
-
-# One hash #
-## Two hashses ##
-### Three hashses ###
-#### Four hashses ####
-##### Five hashses #####
-###### Six hashes ######
-
-+++
-
-Plain text _italics_ **BOLD** **_BOLD italics_**
-
-@ul
-
-- bullet 1
-- bullet 2
-
-@ulend
-
-@ol
-
-1. number 1
-1. number 2
-
-@olend
-
-> quote
 
 ---
 
