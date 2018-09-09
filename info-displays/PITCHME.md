@@ -47,8 +47,10 @@ Follow along with this pitch at:
 ### ***Why use them?***
 
 * Scale well compared to raster graphics (JPEG, PNG, etc.)
-* Well suited to dynamic data
+* All browsers render them
+* Very small
 * Export losslessly to `png` at target resolutions for devices that can't render `svg`
+* You can generate them programmatically
 
 +++
 
@@ -104,7 +106,7 @@ You can create charts:
 
 +++
 
-Imagine camera snapshots from the four mountains:
+Imagine snapshots from our four mountains:
 
 <img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="450px" src="info-displays/pitch/images/starks_examples/jtree_thumbs.png">
 
@@ -118,6 +120,7 @@ And then putting that on a large format TV:
 
 ### ***Design Asset Workflow***
 
+* Concept
 * Design
 * Draw
 * Export
@@ -130,12 +133,13 @@ And then putting that on a large format TV:
 
 If you want to show "live" data
 
-1. Design
-2. Fetch data
-3. Draw
-4. Export
-5. Publish
-6. Go back to #2...
+1. Concept
+2. Design
+3. Fetch data
+4. Draw
+5. Export
+6. Publish
+7. When data changes, go back to #3...
 
 ---
 
@@ -145,18 +149,11 @@ _There are many tools to automate... Why go?_
 
 @ul
 
-- Different
-    - Is it better than my current tool?
-    - Can I learn tricks from knowing how it works?
-    - Does it confirm that my current toolset is the right choice?
-- Runs anywhere
-    - Other tools may be OS specific, be costly, have license restrictions.
-- Has SVG tooling
-    - Nothing we have to write - just use the library.
-- Version control
-    - Storing a drawing as code let's you keep and tweek many versions.
-- Fun
-    - It's so easy and fast to code - it's just fun to make things at that speed.
+- Different: Better? New Tricks? Does this prove my toolset is the right choice?
+- Runs anywhere: Is my toolset OS specific? Costly? Have license restrictions?
+- Has SVG tooling: Nothing we have to write - just use the library.
+- Version control: Revision history, merge changes...
+- Fun: It's easy to learn, fast to code - fun to work at that speed.
 
 @ulend
 
