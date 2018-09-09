@@ -46,7 +46,7 @@ Follow along with this pitch at:
 
 ### ***Why use them?***
 
-* Scale well compared to raster graphics (JPEG, PNG, etc.)
+* Scale well compared to raster graphics
 * All browsers render them
 * Very small
 * Export losslessly to `png` at target resolutions for devices that can't render `svg`
@@ -145,7 +145,7 @@ If you want to show "live" data
 
 ### ***Why Go?***
 
-_There are many tools to automate... Why go?_
+_There are many automation tools... Why go?_
 
 @ul
 
@@ -153,7 +153,6 @@ _There are many tools to automate... Why go?_
 - Runs anywhere: Is my toolset OS specific? Costly? Have license restrictions?
 - Has SVG tooling: Nothing we have to write - just use the library.
 - Version control: Revision history, merge changes...
-- Fun: It's easy to learn, fast to code - fun to work at that speed.
 
 @ulend
 
@@ -232,12 +231,10 @@ Hello baby gophers!
 
 Starks presented "Go for Information Displays" at Gophercon 2018 - I wanted to see what I could do with it.
 
-There are similar implementations in other languages:
+<br />
 
-- Node.js
-- **TODO** identify several and link
+There are similar implementations in other languages...
 
-<br/>
 _Should one of them be in your toolbox?_
 
 ---
