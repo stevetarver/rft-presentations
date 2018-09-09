@@ -237,7 +237,7 @@ There are similar implementations in other languages... _Should one of them be i
 
 +++
 
-<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="550px" align="center" src="info-displays/pitch/images/starks_examples/svgdef.png">
+<img style="align:center; border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="550px" src="info-displays/pitch/images/starks_examples/svgdef.png">
 
 ---
 
@@ -246,7 +246,7 @@ There are similar implementations in other languages... _Should one of them be i
 Install the library:
 
 ```go
- ᐅ go get github.com/ajstarks/svgo
+ᐅ go get github.com/ajstarks/svgo
 go: finding github.com/ajstarks/svgo latest
 go: downloading github.com/ajstarks/svgo v0.0.0-20180830174826-7338bd80e790
 
