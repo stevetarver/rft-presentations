@@ -237,7 +237,7 @@ There are similar implementations in other languages... _Should one of them be i
 
 +++
 
-<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="800px" src="info-displays/pitch/images/starks_examples/svgdef.png">
+<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="650px" src="info-displays/pitch/images/starks_examples/svgdef.png">
 
 ---
 
