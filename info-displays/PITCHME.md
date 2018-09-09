@@ -227,15 +227,17 @@ Hello baby gophers!
 
 ### ***`svgo` overview***
 
-[AJ Starks' `svgo`](https://github.com/ajstarks/svgo) is a library that simplifies making XML entries in a SVG image.
+[AJ Starks' `svgo`](https://github.com/ajstarks/svgo) is a library that simplifies making XML entries that form an SVG image.
 
-Starks presented "Go for Information Displays" at Gophercon 2018 - I wanted to see what I could do with it.
+Starks presented "Go for Information Displays" at Gophercon 2018 - _I wanted to see what I could do with it._
 
 <br />
 
-There are similar implementations in other languages...
+There are similar implementations in other languages... _Should one of them be in your toolbox?_
 
-_Should one of them be in your toolbox?_
++++
+
+<img style="border:0px; box-shadow: 0px 0px 0px rgba(0, 0, 0, .0);" height="800px" src="info-displays/pitch/images/starks_examples/svgdef.png">
 
 ---
 
