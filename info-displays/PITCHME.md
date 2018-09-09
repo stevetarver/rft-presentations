@@ -3,10 +3,15 @@
 @title[Intro]
 
 <br/>
-
 **_Automating Digital Asset_**
 <br/>
 **_ Workflows... with Go_**
+
+<br/>
+<br/>
+<br/>
+<br/>
+_An experiment in command line tools and drawing in Go_
 
 +++
 
