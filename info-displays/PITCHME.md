@@ -294,9 +294,10 @@ func main() {
 go run hello_svg.go > hello_svg.svg
 
 # Convert to png for easy display - gotta pay for this in GitPitch
-convert -background none hello_svg.svg hello_svg.png
+convert hello_svg.svg hello_svg.png
 ```
 
++++
 
 ### ***The image***
 
