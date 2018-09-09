@@ -11,7 +11,11 @@
 <br/>
 <br/>
 <br/>
-_An experiment in command line tools and drawing in Go_
+<br/>
+<br/>
+_An experiment in command_
+<br/>
+_line tools and drawing in Go_
 
 +++
 
