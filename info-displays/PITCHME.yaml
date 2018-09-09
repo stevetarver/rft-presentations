@@ -4,7 +4,7 @@ layout : top-left
 # Look-and-Feel
 #logo : assets/images/logo.png
 #theme : night
-theme-override : info-displays/my-theme.css
+#theme-override : info-displays/my-theme.css
 #highlight : ir-black
 
 # Behavior

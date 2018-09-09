@@ -26,18 +26,14 @@ _line tools and drawing in Go_
 * Code up some SVGs
 * Generate some SVGs and PNGs
 
-_This is an experiment in using command line tools to automate away tedium._
-
-_There are many tools suitable to the task, looking at a new one highlights where your tools shines, or may reveal some tips you can use to simplify your life._
 
 +++
 
 Follow along with this pitch at: 
 
-[https://gitpitch.com/stevetarver/rft-presentations/master?p=info-displays](https://gitpitch.com/stevetarver/rft-presentations/master?p=info-displays)
+<br />
 
-<br/>
-_we're going to code, you can too!_
+[https://gitpitch.com/stevetarver/rft-presentations/master?p=info-displays](https://gitpitch.com/stevetarver/rft-presentations/master?p=info-displays)
 
 ---
 
@@ -50,9 +46,9 @@ _we're going to code, you can too!_
 
 ### ***Why use them?***
 
-* Display perfectly at any scale
-* All elements scale together
-* Export to `png` at target resolutions for devices that can't render `svg`
+* Scale well compared to raster graphics (JPEG, PNG, etc.)
+* Well suited to dynamic data
+* Export losslessly to `png` at target resolutions for devices that can't render `svg`
 
 +++
 
@@ -98,7 +94,7 @@ Classically:
 
 <br/>
 
-SVGs are great for simple drawings, but you can do more...
+SVGs are great for iconic drawings, but you can do more...
 
 +++
 
@@ -149,10 +145,10 @@ _There are many tools to automate... Why go?_
 
 @ul
 
-- .small[Different]
-    - .tiny[Is it better than my current tool?]
-    - .tiny[Can I learn tricks from knowing how it works?]
-    - .tiny[Does it confirm that my current toolset is the right choice?]
+- Different
+    - Is it better than my current tool?
+    - Can I learn tricks from knowing how it works?
+    - Does it confirm that my current toolset is the right choice?
 - Runs anywhere
     - Other tools may be OS specific, be costly, have license restrictions.
 - Has SVG tooling
