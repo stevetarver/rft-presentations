@@ -245,7 +245,7 @@ There are similar implementations in other languages... _Should one of them be i
 
 Install the library:
 
-```go
+```bash
 ᐅ go get github.com/ajstarks/svgo
 go: finding github.com/ajstarks/svgo latest
 go: downloading github.com/ajstarks/svgo v0.0.0-20180830174826-7338bd80e790
@@ -285,7 +285,7 @@ func main() {
 
 ### ***Run the code***
 
-```
+```shell
 #!/bin/sh -e
 #
 # Run hello.go
@@ -338,7 +338,7 @@ Since all browsers render SVG, you can easily embed them. You can generate them:
 * On your webhost, into your asset directory
 * Create a dedicated server that just generates and serves the images
 
-____
+---
 
 ### Install as mac wallpaper
 
@@ -357,7 +357,8 @@ convert msvg:wallpaper.svg wallpaper.png
 
 osascript -e 'tell application "Finder" to set desktop picture to POSIX file "'${FILE_PATH}'"'
 ```
-___
+
+---
 
 ### Install on appletv
 
@@ -374,7 +375,7 @@ Use an AppleTV
 * Use Home Sharing: 
 * Get an app to show content from dropbox, google drive, etc.
 
-___
+---
 
 # References
 
