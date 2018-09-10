@@ -307,73 +307,56 @@ convert hello_svg.svg hello_svg.png
 
 ### ***A laptop wallpaper***
 
-We can make widgets that fill our laptop wallpaper
+Let's get to the interesting part - live data!
 
-* GitHub activity
-* Custom screen display
-    * images from four mountains, osprey
-    * weather
-    * GitHub issues? 
-    * inspirational quote
+Let's make some desktop wallpaper:
 
+* Time, weather, news
+* Photo gallery of area ski resort webcams - where should we ski today?
 
----
++++
 
-### Using live data
-
-How to fetch
-
-curl, wget, httpie
-
-Focus on live data - this is where it shines
-
-```
-brew install httpie 
-```
+### ***Demo***
 
 ---
 
 ### Reverse engineering an SVG
 
-Mock up on favorite tool, convert to code
+Some drawing is better done in a dedicated tool.
 
-Identify live data sections
+1. Develop complicated elements (beziers?) in your favorite tool
+1. Identify live data sections
+1. Migrate those xml elements to your Go code
+1. Integrate live data fetch
 
 ---
 
 ### Use on website
 
-embed
+Since all browsers render SVG, you can easily embed them. You can generate them:
 
-simple webpage that references external url
+* On your webhost, into your asset directory
+* Create a dedicated server that just generates and serves the images
 
 ____
 
-
 ### Install as mac wallpaper
 
-qlmanage -t -s 1000 -o . picture.svg 
-It will produce picture.svg.png that is 1000 pixels wide.
-May only produce squares.
+A little shell script can make this simple:
 
-rsvg-convert
-brew install librsvg and is used like this:
+```bash
+screen_resolution() {
+    TEXT=$(system_profiler SPDisplaysDataType | grep Resolution | awk '{$1=$1};1')
+    WIDTH=$(echo ${TEXT} | cut -f2 -d' ')
+    HEIGHT=$(echo ${TEXT} | cut -f4 -d' ')
+    printf "%s ${WIDTH} %s ${HEIGHT}" '-w' '-h'
+}
 
-rsvg-convert -h 32 icon.svg > icon-32.png
+go run wallpaper.go $(screen_resolution) > wallpaper.svg
+convert msvg:wallpaper.svg wallpaper.png
 
-
-ImageMagick is an extremely versatile command-line image editor, which would probably rival Photoshop if it had, you know, a GUI. But who needs those anyways. :P
-
-Something like the following would convert a .svg to .png, after installation:
-
-$ convert picture.svg picture.png
-The original .svg isn't deleted.
-
-osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/starver/code/rft/rft-presentations/info-displays/pitch/images/pale-violet-square.png"'
-
-could do the same on iphone
-
-
+osascript -e 'tell application "Finder" to set desktop picture to POSIX file "'${FILE_PATH}'"'
+```
 ___
 
 ### Install on appletv
@@ -381,15 +364,15 @@ ___
 Strategies:
 
 Many large TVs have a store mode for just this type of thing - my LG for example. This retail mode may jack with home user mode.
+
 You can set up a local media server and many tvs can connect to it (webOS)
+
 Use an AppleTV
+
 * Use screen saver: Set to a photo or album and use as a screen saver
 * Use Photos: Create a photos album holding a slide show and view that on the TV.
 * Use Home Sharing: 
 * Get an app to show content from dropbox, google drive, etc.
-
-Create an app that loads slides from a remote hosted site.
-
 
 ___
 
@@ -401,7 +384,7 @@ ___
 * [svgo info displays: https://github.com/ajstarks/go-info-displays](https://github.com/ajstarks/go-info-displays)
 * [Deck Github page: https://github.com/ajstarks/deck](https://github.com/ajstarks/deck)
 
-Tons of examples in go-info-displays
+Tons of examples in go-info-displays...
 
 ---
 
