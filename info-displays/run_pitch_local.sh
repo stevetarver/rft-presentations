@@ -2,12 +2,9 @@
 #
 # Run our pitch on a local python http server
 #
-
-#PITCH_ZIP_NAME='PITCHME.zip'
+# Manually fetch the offline version of the pitch using favorite theme
+# extract in pitch/PITCHME
 #
-#cd pitch
-#wget -O "${PITCH_ZIP_NAME}" https://gitpitch.com/pitchme/offline/github/stevetarver/rft-presentations/master/simple/PITCHME.zip?p=info-displays
-#unzip "${PITCH_ZIP_NAME}"
 
 cd pitch/PITCHME
 python3 -m http.server

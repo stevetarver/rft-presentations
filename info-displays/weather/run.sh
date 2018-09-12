@@ -30,18 +30,18 @@ fi
     cd ${THIS_SCRIPT_DIR}/${1}
 
     # If in development, use this
-    go run wallpaper.go > wallpaper.svg
-    open wallpaper.svg
+#    go run wallpaper.go > wallpaper.svg
+#    open wallpaper.svg
 
     # Otherwise, uncomment these:
-#    # Run the go file to produce the wallpaper
-#    go run wallpaper.go $(screen_resolution) > wallpaper.svg
-#
-#    # Convert the SVG to PNG - macs can't show svg as wallpaper
-#    # The 'msvg:' prefix downloads and includes the photos
-#    convert msvg:wallpaper.svg wallpaper.png
-#
-#    # Set the wallpaper as desktop background
-#    FILE_PATH="$(pwd)/wallpaper.png"
-#    osascript -e 'tell application "Finder" to set desktop picture to POSIX file "'${FILE_PATH}'"'
+    # Run the go file to produce the wallpaper
+    go run wallpaper.go $(screen_resolution) > wallpaper.svg
+
+    # Convert the SVG to PNG - macs can't show svg as wallpaper
+    # The 'msvg:' prefix downloads and includes the photos
+    convert msvg:wallpaper.svg wallpaper.png
+
+    # Set the wallpaper as desktop background
+    FILE_PATH="$(pwd)/wallpaper.png"
+    osascript -e 'tell application "Finder" to set desktop picture to POSIX file "'${FILE_PATH}'"'
 )
